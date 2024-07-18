@@ -1,0 +1,103 @@
+
+body {
+    /* font-size: 14px; */
+    /* font-weight: 400; */
+    font-family: "Nunito", "Segoe UI", arial;
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+  
+  .label-text {
+      font-weight: 600;
+  }
+  
+  b.required {
+      color: red;
+  }
+  
+  label.form-check-label {
+      font-weight: 600;
+      font-size: 13px;
+  }
+  
+  div.seat {
+      background-color: #eeaa0e;
+      border-radius: 5px;
+      color: black    ;
+      font-weight: 500;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+  }
+  
+  div.display-left {
+      background-color:#ff8509;
+      padding-left: 50px;
+      padding-top: 80px;
+      color: white;
+      font-size: 13px;
+      font-weight: 500;
+  }
+  
+  @media only screen and (max-width: 600px) {
+      div.display-left {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+  } 
+  
+  p.text-hint {
+      color: black;
+      font-weight: 400;
+  }
+  
+  .wrapper-seat {
+      background-color: #e0e3ff;
+      /* border: 1px solid #ff8509; */
+      /* height: 100px; */
+      margin-bottom: 20px;
+      padding: 10px 15px 15px 15px;
+      width: 95%;
+      border-radius: 10px;
+  }
+  
+  .seat-item {
+      background-color:  #fafdfb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      padding-top: 5px;
+      border-radius: 10px;
+  }
+  
+  .label-text-utama {
+      background-color: #28a745;
+      color: white;
+      font-size: 14px;
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+  }
+  
+  .label-text-serambi {
+      background-color: #007afe;
+      color: white;
+      font-size: 14px;
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+  }
+  
+  .label-text-balkon {
+      background-color: #6b747c;
+      color: white;
+      font-size: 14px;
+      padding: 5px 5px 5px 5px;
+      border-radius: 5px;
+  }
+
+  .alert-margin {
+      margin:0 auto;
+  }
